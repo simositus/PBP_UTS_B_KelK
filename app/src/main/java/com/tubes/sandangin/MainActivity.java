@@ -68,7 +68,14 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+
     }
+
+    public void openCamera(View view){
+        Intent intent = new Intent(this, CameraOperation.class);
+        startActivity(intent);
+    }
+
     public void openShop(View view){
         Intent intent = new Intent(this, ListActivity.class);
         startActivity(intent);
