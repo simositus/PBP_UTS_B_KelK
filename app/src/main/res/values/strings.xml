@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Sandangin</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYWdkYWthcGFyZXNraSIsImEiOiJja2ZvMTJlN3YxczJlMzduemJ4eWM3b3Q4In0.pPuAvT3SfmzfkTr0VzAGqQ</string>
 </resources>
