@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFBF00</color>
+    <color name="colorPrimaryDark">#c2c2c2</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="ungu">#9255FF</color>
+    <color name="merah">#F44134</color>
+    <color name="coklat">#B16C05</color>
+</resources>

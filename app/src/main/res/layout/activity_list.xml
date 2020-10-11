@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SANDANGIN"
+        android:textAlignment="center"
+        android:textSize="32dp">
+    </TextView>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:columnWidth="190dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:stretchMode="spacingWidthUniform"
+        tools:listitem="@layout/tshirt_view_adapter">
+    </GridView>
+
+</LinearLayout>
