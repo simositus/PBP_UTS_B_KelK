@@ -40,13 +40,13 @@ public class ListActivity extends AppCompatActivity {
         gridView.setAdapter(adapter);
 
         Button buttonBuy = findViewById(R.id.buttonBuy);
-        buttonBuy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                createNotificationChannel();
-                addNotification();
-            }
-        });
+//        buttonBuy.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                createNotificationChannel();
+//                addNotification();
+//            }
+//        });
     }
 
     private void createNotificationChannel() {

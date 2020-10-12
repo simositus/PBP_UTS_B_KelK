@@ -53,6 +53,16 @@
             android:text="Go To Camera">
         </Button>
 
+        <Button
+            android:id="@+id/buttonMap"
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openMap"
+            android:text="Go To Map">
+        </Button>
+
     </LinearLayout>
     <Button
         android:id="@+id/button_logoutMain"

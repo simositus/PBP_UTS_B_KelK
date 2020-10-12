@@ -63,7 +63,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
         mapView = findViewById(R.id.mapView);
         searchfab = findViewById(R.id.fab_location_search);
-        mapView.onCreate(savedInstanceState);
+//        mapView.onCreate(savedInstanceState);
         mapView.getMapAsync(this);
 
         searchfab.setOnClickListener(new View.OnClickListener() {

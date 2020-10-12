@@ -27,13 +27,13 @@ public class CameraOperation extends AppCompatActivity implements SensorEventLis
     private static final int SHAKE_THRESHOLD=600;
     private SensorManager mSensorManager;
     private Sensor mAccelerometer;
-    private static final String TAG = "Main Activity";
+    private static final String TAG = "Camera Activity";
     private static final int REQUEST_CODE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_camera);
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         CameraPermission();
