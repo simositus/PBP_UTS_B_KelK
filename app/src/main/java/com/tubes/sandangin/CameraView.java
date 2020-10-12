@@ -49,3 +49,4 @@ public class CameraView extends SurfaceView implements SurfaceHolder.Callback {
         mCamera.release();
     }
 }
+
