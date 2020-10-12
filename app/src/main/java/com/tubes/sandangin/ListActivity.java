@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.GridView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
@@ -47,6 +48,14 @@ public class ListActivity extends AppCompatActivity {
 //                addNotification();
 //            }
 //        });
+    }
+    public void toastBuy(String buy) {
+        Toast toast = Toast.makeText(this, buy, Toast.LENGTH_LONG);
+        toast.show();
+    }
+
+    public void displayBuy(View v) {
+        toastBuy("Terimakasih Sudah Membeli Item Ini :D");
     }
 
     private void createNotificationChannel() {

@@ -22,11 +22,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="20dp"
-        android:gravity="center"
         android:columnWidth="190dp"
+        android:gravity="center"
         android:numColumns="auto_fit"
-        android:verticalSpacing="10dp"
         android:stretchMode="spacingWidthUniform"
+        android:verticalSpacing="10dp"
         tools:listitem="@layout/tshirt_view_adapter">
     </GridView>
 
